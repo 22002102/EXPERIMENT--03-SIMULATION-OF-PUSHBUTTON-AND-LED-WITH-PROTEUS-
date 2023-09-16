@@ -17,11 +17,29 @@ interfaces Datasheet - production data Features
  
 
 ## Procedure:
-
+1. Open a new STM32 Project
+2. Selecting GPIO Ports
+  
+     PA5 -> GPIO Output
+   
+     PC13 -> GPIO input
+3. Configure the PC13 Port at Pull up Mode followed by generating the code.
+4. Write the function(Declare,Define,Call)
+5. Build Debug and Create 'hex file'
+6. Open a new Proteus Project.
+7. Select STM32F401RB, LED and Push Button.
+8. Connect Proteus and STM32cubeIDE together.
+9. Connect PA5 with LED and PC13 with Push Button.
+10. Check for execution of the ouput using Push Button option.
+       
 
 
 
 ## STM 32 CUBE PROGRAM :
+```
+NAME: SANJAY S
+REG NO: 212222230132
+```
 ```
 #include "main.h"
 #include "stdbool.h"
@@ -115,13 +133,18 @@ void assert_failed(uint8_t *file, uint32_t line)
 
 
 ## Output screen shots of proteus  :
+## PUSH BUTTON OFF:
+![WhatsApp Image 2023-09-13 at 12 06 11](https://github.com/22002102/EXPERIMENT--03-SIMULATION-OF-PUSHBUTTON-AND-LED-WITH-PROTEUS-/assets/119091638/b4318e3a-d293-4739-8cf3-f0869d7b76bc)
 
+## PUSH BUTTON ON:
+![WhatsApp Image 2023-09-13 at 12 06 11](https://github.com/22002102/EXPERIMENT--03-SIMULATION-OF-PUSHBUTTON-AND-LED-WITH-PROTEUS-/assets/119091638/ee98d14d-7eeb-4586-a938-f85fd1384a18)
 
 
 
 ## Proteus layout(Add pdf screen shot of circuit here)
  
- 
+ ![image](https://github.com/22002102/EXPERIMENT--03-SIMULATION-OF-PUSHBUTTON-AND-LED-WITH-PROTEUS-/assets/119091638/6bfa6345-2699-410f-b01a-f699d033da04)
+
  
  
 ## Result :
