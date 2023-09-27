@@ -33,7 +33,7 @@ interfaces Datasheet - production data Features
 4. Write the function(Declare,Define,Call)
 5. Build Debug and Create 'hex file'
 6. Open a new Proteus Project.
-7. Select STM32F401RB, LED and Push Button.
+7. Select ports STM32F401RB, LED and Push Button.
 8. Connect PA5 to LED and PC13 to Push Button.
 9. Check for execution of the ouput using Push Button option.
        
