@@ -35,7 +35,7 @@ interfaces Datasheet - production data Features
 6. Open a new Proteus Project.
 7. Select ports STM32F401RB, LED and Push Button.
 8. Connect PA5 to LED and PC13 to Push Button.
-9. Check for execution of the ouput using Push Button option.
+9. Check for execution of the output using Push Button option.
        
 
 
